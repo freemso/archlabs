@@ -376,7 +376,7 @@ In this report, we will going to take a look at an interesting technology called
 
 ### What is RDMA?
 RDMA, remote direct memory access, is a direct memory access from the memory of one computer into that of another without involving either one’s operating system.
-![](lab3/rdma-arch-layer.tiff)
+![](lab3/rdma-arch-layer.png)
 
 The term “RDMA” is usually used to refer to networking technologies that have a software interface with Remote DMA.
 
@@ -398,7 +398,7 @@ To draw an analogy from everyday mail service, queue pair (QP) defines the addre
 
 #### Verbs
 In RDMA based programming, verb is a term that defines the types of communication operations. There are two different communication primitives: channel semantics (send/receive) and memory semantics (read/write). If we only consider how data is delivered to the other end, channel semantics involves both communication endpoints: the receiver needs to pre-post receives and the sender posts sends; while memory semantics only involves one side of the communication endpoint: the sender can write the data directly to the receiver's memory region, or the receiver can read from the target's memory region without notifying the target.
-![](lab3/verbs.tiff)
+![](lab3/verbs.png)
 Generally speaking, memory semantics has less overhead compared to channel semantics and thus has higher raw performance; On the other hand, channel semantics involves less programming effort.
 
 ### Why it is Useful?
