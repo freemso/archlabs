@@ -1,0 +1,15 @@
+# Arch. Lab1 Part2 Inst. List
+- `ADD`
+- `ADDU`
+- `SUBU`
+- `ADDIU`
+- `ANDI`
+- `BNE`
+- `JUMP`
+- `LUI`
+- `LW`
+- `SLL`
+- `SW`
+- `SLTI`
+- `SYSCALL`
+- `NOP`
